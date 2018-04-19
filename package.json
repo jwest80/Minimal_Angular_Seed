@@ -1,0 +1,30 @@
+{
+  "name": "ang-minimal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "live-server",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^5.2.10",
+    "@angular/compiler": "^5.2.10",
+    "@angular/core": "^5.2.10",
+    "@angular/platform-browser": "^5.2.10",
+    "@angular/platform-browser-dynamic": "^5.2.10",
+    "core-js": "^2.5.5",
+    "rxjs": "^5.5.10",
+    "systemjs": "^0.21.3",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "typescript": "^2.8.1"
+  }
+}
